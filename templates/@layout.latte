@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>{ifset #title}{include title|striptags} | {/ifset}Lattissimo</title>
+   <link rel="stylesheet" href="{$basePath}/styles/custom.css"/>
+
+</head>
+<body>
+
+<header>
+   <h1>Lattissimo</h1>
+   {include '@header.latte'}
+</header>
+
+<div class="content {$templateName}">
+   {include content}
+</div>
+
+
+</body>
+</html>

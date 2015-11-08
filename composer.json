@@ -1,0 +1,16 @@
+{
+    "name": "Lattissmo",
+    "description": "Simple Latte including",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Jan Michek"
+        }
+    ],
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "require": {
+        "nette/nette": ">= 2.3.5"
+    }
+}
